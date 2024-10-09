@@ -10,22 +10,22 @@ type MenuItem = {
  children?: MenuItem[];
 }
 
-export const menuItems : MenuItem[] = [
+export const menuItems: MenuItem[] = [
   {
-    title: 'Home',
-    route: '/',
+    title: "Home",
+    route: "/",
   },
   {
-    title: 'About',
-    route: '/about',
+    title: "About",
+    route: "/about",
   },
   {
-    title: 'Contact',
-    route: '/contact',
+    title: "Programming",
+    route: "/programming",
   },
   {
-    title: 'Blog',
-    route: '/blog',
+    title: "Contact",
+    route: "/contact",
   },
 ]
 const Navbar:React.FC = () => {
